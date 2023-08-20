@@ -1,0 +1,140 @@
+@charset "UTF-8";
+
+
+HTML CSSResult Skip Results Iframe
+EDIT ON
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Noto Sans KR", sans-serif;
+}
+
+.Minsert-a {
+  text-decoration: none;
+  color: black;
+}
+
+
+
+.wrap {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.1);
+  
+}
+
+.Minsert {
+	margin-top:130px;
+  width: 30%;
+  height: 850px;
+  background: white;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+
+
+.Mjoin {
+  color: tomato;
+  font-size: 3em;
+  font-weight:bold;
+}
+
+
+.join {
+  margin-top: -10px;
+  width: 80%;
+ margin-bottom: 10px;
+}
+
+.join input  {
+  width: 90%;
+  height: 40px;
+  border-radius: 30px;
+
+  padding: 0px 20px;
+  border: 1px solid lightgray;
+  outline: none;
+      margin-bottom: -10px;
+   margin-top: -10px;
+}
+
+.login_etc {
+  padding: 10px;
+  width: 60%;
+  font-size: 14px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: bold;
+  
+}
+
+.submit {
+  margin-top: 20px;
+  width: 80%;
+  margin-bottom: 20px;
+}
+.submit input {
+  width: 100%;
+  height: 50px;
+  border: 0;
+  outline: none;
+  border-radius: 40px;
+  background: linear-gradient(to left, rgb(255, 77, 46), rgb(255, 155, 47));
+  color: white;
+  font-size: 1.2em;
+  letter-spacing: 2px;
+
+}
+
+.check_joins {
+  display: inline-block; /* 라벨들을 가로로 배치하기 위해 필요한 스타일 */
+
+  margin-left: -60%;
+  
+}
+
+input#check_btn_m,
+input#check_btn_f {
+  display: none;
+  
+}
+
+input#check_btn_m + label,
+input#check_btn_f + label {
+  display: inline-block;
+  cursor: pointer;
+  vertical-align: middle;
+  padding: 3px;
+  border: 2px solid #F47C7C;
+  border-radius: 4px;
+  margin-right: 10px; /* 각 라벨 사이의 간격을 조절할 수 있습니다. */
+  
+   margin-top: -30px;
+}
+
+input#check_btn_m:checked + label,
+input#check_btn_f:checked + label {
+  background-color: #F47C7C;
+  border-color: #F47C7C;
+  color: #fff;
+}
+
+/* 선택된 라벨 스타일 변경 예시 */
+input#check_btn_m:checked + label span,
+input#check_btn_f:checked + label span {
+  font-weight: bold;
+}
+
+#confirmMsg{
+	font-weight: bold;
+	
+}

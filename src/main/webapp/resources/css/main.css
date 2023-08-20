@@ -1,0 +1,166 @@
+@charset "UTF-8";
+
+
+.maintable1{
+	width: 1400px;
+	height: 500px;
+	align-content: center;
+	justify-content: center;
+	margin: auto;
+	
+}
+
+.tableimg1{
+	width: 300px;
+	height: 130px;
+	
+}
+
+.maintable1 td{
+	width: 300px;
+	height: 200px;
+	text-align: center;
+	
+}
+
+
+.mainhr{
+	width: 1400px;
+}
+.main_main{
+	margin-bottom: 20px;
+}
+
+.just1{
+	
+	font-size: 35px;
+	font-weight: bold;
+	
+}
+.just2{
+	font-size: 20px;
+	color: silver;
+}
+
+.maintable2{
+	width: 1400px;
+	height: 500px;
+	align-content: center;
+	justify-content: center;
+	margin: auto;
+	
+}
+
+.tableimg2{
+	
+	width: 300px;
+	height: 300px;
+	
+}
+.maintable2 .maintd{
+	width: 300px;
+	height: 360px;
+	text-align: center;
+	
+}
+
+.maintd1{
+	height: 50px;
+}
+
+.tableimg3{
+	height: 150px;
+	width: 230px;
+}
+
+.maintable2 .maintd2{
+	width: 300px;
+	height: 200px;
+	text-align: center;
+	
+}
+
+.maintable3{
+	width: 1400px;
+	height: 200px;
+	align-content: center;
+	justify-content: center;
+	margin: auto;
+	
+}
+
+.maintable4{
+	width: 1400px;
+	height: 50px;
+	align-content: center;
+	justify-content: center;
+	margin: auto;
+	
+}
+
+.mainad{
+	width: 100%;
+	height: 500px;
+}
+
+.mainadiv{
+	 position: relative;
+}
+
+.imgtext { 
+  font-size: 50px;
+  position: absolute;
+  top: 50%; /* 수직 가운데 정렬을 위해 이미지의 중간으로 조정 */
+  left: 50%; /* 수평 가운데 정렬을 위해 이미지의 중간으로 조정 */
+  transform: translate(-50%, -50%); /* 가운데 정렬 */
+  color: rgba(255, 255, 255); /* 텍스트 색상 */
+  padding: 10px; /* 텍스트 주위의 여백 */
+  z-index: 1; /* 이미지 위에 텍스트를 배치하기 위해 z-index 설정 */
+}
+
+.maintd101{
+height: 250px;
+	width:260px
+	}
+
+.maintd102{
+height: 250px;
+	width:260px
+	}
+	.maintd102{
+height: 250px;
+	width:400px
+	}
+
+
+.maintd201{
+	height: 250px;
+
+}
+.maintd202{
+	height: 250px;
+	width:400px
+}
+
+
+.tableimg101{
+	margin:3%;
+	padding:;
+	width: 95%;
+	height: 95%;
+}
+
+
+.tableimg104{
+	margin:-3%;
+	padding:0;
+	width: 105%;
+	height: 90%;
+}
+
+.tableimg103{
+		margin:3%;
+	padding:;
+	width: 95%;
+	height: 95%;
+}

@@ -1,0 +1,41 @@
+
+@charset "UTF-8";
+
+* { 
+   text-decoration: none;
+   color: inherit;
+  list-style:none;
+    padding-left: 0;
+      
+}
+footer {
+  float:left;
+}
+ 
+.coporation_area {
+    margin: 30px; /* Adjust the value to control the gap */
+  }
+ .coporation_area a, h2 {
+    margin-right: 15px; /* Adjust the value to control the gap */
+  }
+
+.company_info{
+ color: rgba(34,34,34,.5);
+}
+
+.D{	
+	width:50px;
+	height:50px;
+
+}
+
+.footer_mark td {
+        height: 50px;
+     }
+.footer_mark {
+  margin: 30px;
+}
+.cinema{
+	font-size: 30px;
+	font-weight: bold;
+}

@@ -1,0 +1,52 @@
+@charset "UTF-8";
+
+/* 위에 KGHOME */
+.he2 {
+	
+  top: 0; /* 원하는 위치로 조정 */
+  left:0;
+  background: #ffffff;
+  position: fixed;
+  height: 40px;
+  	display: flex;
+	justify-content: space-between;
+ z-index: 4;
+	opacity: 1; 
+	width:100%;
+	    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+
+.headnav2{
+display: flex;
+width: 100%;
+z-index: 1000;
+list-style:none;
+margin-left: 70%;
+
+}
+
+/* KGHOME 색 글자 크기 */
+.headnav2 a{
+display: block;
+font-size: 105%;
+padding-right: 20px;
+
+}
+
+
+@media (max-width: 300px) {
+  body {
+    font-size: 13px;
+  }
+
+}
+
+
+
+
+
+
